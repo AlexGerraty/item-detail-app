@@ -54,7 +54,10 @@ function ItemDetail() {
         <div className="card-body">
           <h4 className="card-title">{item.title}</h4>
           <p className="card-text">{item.description}</p>
-          <h6 className="card-text d-in">Price: ${item.price}</h6>
+          <h6 className="card-text ">Price: ${item.price}</h6>
+          <h6 className="card-text ">Price: ${item.price}</h6>
+          <h6 className="card-text ">Price: ${item.price}</h6>
+          <h6 className="card-text ">Price: ${item.price}</h6>
           <a href="/" className="btn btn-primary">Back to Home</a>
         </div>
       </div>

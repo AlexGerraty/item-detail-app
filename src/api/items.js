@@ -9,4 +9,12 @@ export function getItems() {
 /* Function to specific product from the dummy json API based on id*/
 export function getItem(id) {
     return fetch(`${API_URL}/products/${id}`).then(response => response.json());
-  }
+}
+
+export function sortNameAsc() {
+    return fetch (`${API_URL}/products?sortBy=title&order=asc`)     
+}
+
+export function sortNameDesc() {
+    return fetch (`${API_URL}/products?sortBy=title&order=desc`)     
+}
