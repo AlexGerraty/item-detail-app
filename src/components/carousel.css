@@ -1,0 +1,16 @@
+/* Change the color of the carousel controls (arrows) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  background-size: 100%, 100%;
+}
+
+.carousel-item img {
+    height: 25%;
+    width: 100%;
+    object-fit: auto; /* Ensure images cover the area without distortion */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
