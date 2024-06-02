@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Item Detail App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Improvements](#improvements)
+- [Author](#Author)
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+The Item Detail App is a React application that allows users to browse a list of products, search, sort by various criteria, and view detailed information about each product. The app fetches data from Dummy JSON and provides a seamless user experience with a responsive design.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Search Products**: Users can search for products by name.
+- **Sort Products**: Users can sort products by name (ascending/descending) and price (ascending/descending).
+- **Product Details**: Users can view detailed information about each product, including images, description, price,     availability status, and rating.
+- **Responsive Design**: The app is designed to work on both desktop and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v12 or higher)
+- npm (v6 or higher) or yarn (v1.22 or higher)
 
-### `npm run build`
+### Steps
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/item-detail-app.git
+   cd item-detail-app bash 
+ 
+2. Install dependencies:
+   ```bash
+   npm install
+    # or
+   yarn install
+### Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running the Application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Start the development server:
+   ```bash
+   npm start
+    # or
+   yarn start
 
-### `npm run eject`
+2. Open your browser and navigate to http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The application has been deployed through Heroku and can be accessed through this link
 
-### `npm run build` fails to minify
+https://item-detail-app-621e9a0c7d54.herokuapp.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Improvements 
+
+1. Images and Thumbnails
+
+  Due to the thumbnails and images retrieved from Dummy JSON being varying sizes it was difficult to align them within Cards from Bootstrap
+
+  In future, I would like to get access to the photos in order to alter them to specific sizes, this will allow a more pleasing and aesthetic viewing experience.
+
+2. Adding a Category Selector
+
+   Using the "tag" name and it's corresponding value, a category selector can be used in order to specifically target the item of which the consumer is searching for.
+
+
+### Author
+
+My Name is Alex Gerraty and I have constructed this simple web application to demonstrate my profiency with fetching data from API's.
