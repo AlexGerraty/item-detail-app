@@ -62,9 +62,9 @@ https://item-detail-app-621e9a0c7d54.herokuapp.com/
 
 1. Images and Thumbnails
 
-  Due to the thumbnails and images retrieved from Dummy JSON being varying sizes it was difficult to align them within Cards from Bootstrap
+   Due to the thumbnails and images retrieved from Dummy JSON being varying sizes it was difficult to align them within Cards from Bootstrap
 
-  In future, I would like to get access to the photos in order to alter them to specific sizes, this will allow a more pleasing and aesthetic viewing experience.
+   In future, I would like to get access to the photos in order to alter them to specific sizes, this will allow a more pleasing and aesthetic viewing experience.
 
 2. Adding a Category Selector
 
