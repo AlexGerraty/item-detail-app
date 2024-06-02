@@ -6,15 +6,12 @@
 }
 
 .carousel-item img {
-    height: 25%;
-    width: 100%;
-    object-fit: auto; /* Ensure images cover the area without distortion */
-    max-width: 100%; /* Ensure images don't exceed container width */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+  margin: auto;
+  width: auto;
+  object-fit: cover;
+  max-height: auto;
+}
+/* Set clickable areas to show cursor  */
 .clickable {
     cursor: pointer;
 }

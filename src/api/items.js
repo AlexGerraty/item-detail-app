@@ -18,3 +18,11 @@ export function sortNameAsc() {
 export function sortNameDesc() {
     return fetch (`${API_URL}/products?sortBy=title&order=desc`)     
 }
+
+export function sortPriceAsc() {
+    return fetch (`${API_URL}/products?sortBy=price&order=asc`) 
+}
+
+export function sortPriceDesc() {
+    return fetch (`${API_URL}/products?sortBy=price&order=desc`) 
+}
