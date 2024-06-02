@@ -27,7 +27,7 @@ The Item Detail App is a React application that allows users to browse a list of
 - Node.js (v12 or higher)
 - npm (v6 or higher) or yarn (v1.22 or higher)
 
-### Steps
+## Steps
 
 1. Clone the repository:
    ```bash
@@ -39,9 +39,9 @@ The Item Detail App is a React application that allows users to browse a list of
    npm install
     # or
    yarn install
-### Usage
+## Usage
 
-## Running the Application
+### Running the Application
 
 1. Start the development server:
    ```bash
@@ -52,13 +52,13 @@ The Item Detail App is a React application that allows users to browse a list of
 2. Open your browser and navigate to http://localhost:3000.
 
 
-### Deployment
+## Deployment
 
 The application has been deployed through Heroku and can be accessed through this link
 
 https://item-detail-app-621e9a0c7d54.herokuapp.com/
 
-### Improvements 
+## Improvements 
 
 1. Images and Thumbnails
 
@@ -71,6 +71,6 @@ https://item-detail-app-621e9a0c7d54.herokuapp.com/
    Using the "tag" name and it's corresponding value, a category selector can be used in order to specifically target the item of which the consumer is searching for.
 
 
-### Author
+## Author
 
 My Name is Alex Gerraty and I have constructed this simple web application to demonstrate my profiency with fetching data from API's.
